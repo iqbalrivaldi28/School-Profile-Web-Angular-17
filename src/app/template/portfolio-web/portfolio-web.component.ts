@@ -6,6 +6,7 @@ import { AboutUsComponent } from 'src/app/components/about-us/about-us.component
 import { NewsComponent } from 'src/app/components/news/news.component';
 import { AchievementComponent } from 'src/app/components/achievement/achievement.component';
 import { TestimoniComponent } from 'src/app/components/testimoni/testimoni.component';
+import { FooterComponent } from '@components/footer/footer.component';
 
 @Component({
   selector: 'app-portfolio-web',
@@ -18,6 +19,7 @@ import { TestimoniComponent } from 'src/app/components/testimoni/testimoni.compo
     NewsComponent,
     AchievementComponent,
     TestimoniComponent,
+    FooterComponent,
   ],
   templateUrl: './portfolio-web.component.html',
   styleUrl: './portfolio-web.component.scss',
