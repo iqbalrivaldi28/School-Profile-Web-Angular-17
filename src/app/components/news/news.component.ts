@@ -4,13 +4,13 @@ import {
   ElementRef,
   ViewChild,
 } from '@angular/core';
-
+import { DateFormatPipe } from 'src/app/pipes/date-format.pipe';
 import { SwiperContainer } from 'swiper/element';
 
 @Component({
   selector: 'app-news',
   standalone: true,
-  imports: [],
+  imports: [DateFormatPipe],
   templateUrl: './news.component.html',
   styleUrl: './news.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

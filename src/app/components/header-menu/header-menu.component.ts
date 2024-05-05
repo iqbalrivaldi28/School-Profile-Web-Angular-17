@@ -12,7 +12,7 @@ import { MatMenuModule } from '@angular/material/menu';
   styleUrl: './header-menu.component.scss',
 })
 export class HeaderMenuComponent {
-  @Input() isScrolled: boolean = false;
+  @Input() bannerIsScroll: boolean = false;
   @Output() goToDivElement = new EventEmitter<string>();
 
   gotoDiv(section: string) {
